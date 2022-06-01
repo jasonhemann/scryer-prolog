@@ -108,10 +108,10 @@ First, install the latest stable version of
 [Rust](https://www.rust-lang.org/en-US/install.html) using your
 preferred method. Scryer tends to use features from newer Rust
 releases, whereas Rust packages in Linux distributions, Macports,
-etc. tend to lag behind. [rustup](http://rustup.rs) will keep your
-Rust updated to the latest stable release; any existing Rust
-distribution should be uninstalled from your system before rustup is
-used.
+etc. tend to lag behind. [rustup](http://rustup.rs)'s 
+`auto-self-update` mode will keep your Rust updated to the latest 
+stable release; any existing Rust distribution should be 
+uninstalled from your system before rustup is used.
 
 Currently the only way to install the latest version of Scryer is to
 clone directly from this git repository, which can be done as follows:
